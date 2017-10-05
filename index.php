@@ -90,10 +90,10 @@ foreach($year as $value)
        switch($value)
             {
                 case(($value%4) ==0 and ($value%100)!=0 or ($value%400)==0):
-                 echo $value. ' is  TRUE'.'<br>';
+                 echo $value. ' is  TRUE ';
 		 break;
 		 default:
-		 echo $value. ' is  FALSE'.'<br>';
+		 echo $value. ' is FALSE ';
 
 	     }
 
